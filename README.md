@@ -205,7 +205,6 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 For questions or issues:
 - Open an issue on GitHub
-- Contact: yugrajmangate@example.com
 - Documentation: [Wiki](https://github.com/yugrajmangate-dev/smartpark/wiki)
 
 ## Acknowledgments
