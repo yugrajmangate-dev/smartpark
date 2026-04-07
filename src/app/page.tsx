@@ -217,12 +217,4 @@ export default function Home() {
     </main>
   )
 }
-              <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
-              <p className="text-text-secondary text-sm">{feature.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-    </main>
-  )
-}
+ 
