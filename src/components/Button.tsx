@@ -69,7 +69,7 @@ export const Button = ({
       whileTap={{ scale: disabled ? 1 : 0.95 }}
       disabled={disabled || isLoading}
       className={`${baseClasses} ${variantClass} ${sizeClass} ${className}`}
-      {...props}
+      {...(props as any)}
     >
       {content}
     </motion.button>

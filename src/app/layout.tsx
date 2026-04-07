@@ -1,17 +1,18 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import { NotificationContainer } from '@/components'
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: '#FF6B2C',
+}
 
 export const metadata: Metadata = {
   title: 'SmartPark – AI Parking for Hinjewadi',
   description: 'Enterprise-quality parking management platform for Hinjewadi Phase 1. Real-time slot discovery, instant reservations, and professional incident management.',
   keywords: ['parking', 'hinjewadi', 'pune', 'parking management', 'AI parking'],
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-  },
-  themeColor: '#FF6B2C',
   openGraph: {
     title: 'SmartPark – AI Parking for Hinjewadi',
     description: 'Enterprise-quality parking management for Hinjewadi Phase 1',

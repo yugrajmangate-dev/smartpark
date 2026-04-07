@@ -88,11 +88,10 @@ export const DashboardCard = ({
 
   return (
     <motion.div
-      variants={containerVariants}
       initial="hidden"
       animate="visible"
       whileHover={isClickable ? 'hover' : 'rest'}
-      variants={isClickable ? hoverVariants : undefined}
+      variants={{ ...containerVariants, ...(isClickable ? hoverVariants : {}) }}
       onClick={onClick}
       className={`
         card group
